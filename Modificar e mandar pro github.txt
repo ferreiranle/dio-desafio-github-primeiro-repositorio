@@ -1,0 +1,64 @@
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO
+$ cd dio-desafio-github-primeiro-repositorio/
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "Inclusão das anotações do curso de Git/Github"
+[main db33227] Inclusão das anotações do curso de Git/Github
+ 1 file changed, 2 insertions(+)
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 391 bytes | 391.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ferreiranle/dio-desafio-github-primeiro-repositorio.git
+   b59ca08..db33227  main -> main
+
+User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
+$
