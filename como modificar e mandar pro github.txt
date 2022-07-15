@@ -3,13 +3,6 @@ User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO
 $ cd dio-desafio-github-primeiro-repositorio/
 
 User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
-$ git satus
-git: 'satus' is not a git command. See 'git --help'.
-
-The most similar command is
-        status
-
-User@DESKTOP-CBK708U MINGW64 ~/Documents/Desafio DIO/dio-desafio-github-primeiro-repositorio (main)
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
