@@ -1,0 +1,8 @@
+JDK- é o kit de desenvolvimento java responsavel por compilar código fonte
+JVM- máquina virtual do java responsável por executar o bytecode
+JRE-ambiente de execução do java que fornece as bibliotecas padrões do java
+para compilar os códigos.
+
+IDE- ambiente de desenvolvimento integrado (tipo um editor)
+Eclipse é uma IDE para java e outras linguagens
+Intellij IDEA é um ambiente de desenvolvimento integrado em java para desenvolvimento de software de computador.
